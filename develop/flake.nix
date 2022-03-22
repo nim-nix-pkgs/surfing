@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-surfing-develop.flake = false;
+  inputs.src-surfing-develop.ref   = "refs/heads/develop";
   inputs.src-surfing-develop.owner = "momeemt";
-  inputs.src-surfing-develop.ref   = "develop";
   inputs.src-surfing-develop.repo  = "surfing";
   inputs.src-surfing-develop.type  = "github";
   
